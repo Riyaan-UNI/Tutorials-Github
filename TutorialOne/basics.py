@@ -1,2 +1,1 @@
 #Tutorial
-print("Assalamu Alaikum")

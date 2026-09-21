@@ -1,0 +1,2 @@
+#Tutorial
+print("Assalamu Alaikum")

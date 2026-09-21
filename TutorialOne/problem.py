@@ -1,0 +1,2 @@
+#take n as an input with n = minutes.
+#you have a robot in a triangle; FIndout where your robots wil be after n minutes. The robot moves in a triangle with vertices A, B, C. The robot starts at vertex A and moves to vertex B in the first minute, then to vertex C in the second minute, then back to vertex A in the third minute, and so on. Find if it is at vertex A, B, or C or in-between after n minutes.

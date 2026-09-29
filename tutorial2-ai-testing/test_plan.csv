@@ -1,0 +1,19 @@
+id,coursework,exam,expected,actual,verdict,purpose
+T1,12,80,Fail,Fail,Passed,Weighted total below 50
+T2,80,120,Invalid,Invalid,Passed,Invalid input values
+T3,60,81,Pass,Pass,Passed,A pass case with a weighted total above 50 and exam mark above 49
+T4,20,39,Fail,Fail,Passed,A test case with exam mark below 49
+T5,-1,100,Invalid,Invalid,Passed,Invalid input values
+T6,100,-1,Invalid,Invalid,Passed,Invalid input values
+T7,100,100,Pass,Pass,Passed,Normal pass case
+T8,0,80,Fail,Fail,Passed,Weighted total below 50
+T9,49,50,Fail,Fail,Passed,Weighted total just below 50
+T10,50,50,Pass,Pass,Passed,Weighted total exactly 50
+T11,100,39,Fail,Fail,Passed,Exam just below its minimum
+T12,100,40,Fail,Fail,Passed,Exam below the new minimum
+T13,-1,80,Invalid,Invalid,Passed,Coursework below its range
+T14,80,101,Invalid,Invalid,Passed,Exam above its range
+T15,100,44,Fail,Fail,Passed,Just below the new exam minimum
+T16,100,45,Pass,Pass,Passed,Exactly at the new minimum
+T17,100,40,Fail,Fail,Passed,Old pass case now fails because exam is below 45
+T18,50,50,Pass,Pass,Passed,Weighted threshold is unchanged
